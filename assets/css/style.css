@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Merriweather:ital,wght@1,900&family=Oswald:wght@700&family=Spectral:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Merriweather, serif;
+    font-weight: 600;
+    color: brown;
+}
+
+header {
+    background-color: rgb(179, 193, 53);
+    margin: 0;
+    display: flex;
+}
+
+#headding {
+    font-family: spectral, serif;
+    font-size: 280%;
+    float: left;
+    color: rgb(11, 11, 11);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: none;
+    line-height: 75px;
+}
+
+/* navigation elements*/
+
+.nav-list {
+    font-size: 100%;
+    letter-spacing: 3px;
+    line-height: 75px;
+    flex-direction: row;
+}
+
+.nav-list li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+
+/* headder elements in the flex box*/
+#headder1 > div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+/* content styling*/
+#content {
+    display: flex;
+    flex-direction: row;
+    transform: scale(1);
+    transition: all 0.3s 0.2s ease-in;
+
+    width: 60%;
+    height: 30%;
+
+    padding: 50px 30px 10px 30px;
+    background-color: rgba(103, 189, 106, 0.6);
+}
+#content h3 {
+    font-size: 100%;
+    font-family: merriweather, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
