@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Merriweather:ital,wght@1,900&family=Oswald:wght@700&family=Spectral:wght@700&display=swap');
 
 * {
-    margin: 0;
+    margin: 10;
     padding: 0;
     border: none;
 }
@@ -9,12 +9,12 @@
 body {
     font-family: Merriweather, serif;
     font-weight: 600;
-    color: rgb(240, 238, 238);
-    background-color: azure;
+    color: rgb(13, 15, 13);
+    background-color: rgb(247, 212, 212);
 }
 /* headder elements in the flex box*/
 #header1 {
-    background-color: rgb(179, 193, 53);
+    background-color: rgba(103, 189, 106, 0.6);
     margin: 0;
     display: flex;
     flex-direction: column-reverse;
@@ -41,35 +41,53 @@ body {
     letter-spacing: 3px;
     line-height: 60px;
  margin-right: 20px;
+
+}
+.nav-list a{
+    text-decoration: none;
 }
 
 .nav-list li {
     float: right;
     list-style-type: none;
     margin-left: 20px;
-    text-decoration: none;
+   
 }
 
-
+/*first background image*/
+#first-image {
+    background: url('..//image/cover-chilli-copy.webp')no-repeat center center;
+    background-position: cover;
+    background-size: 100% 100%;
+    height: 300px;
+    width: 100%;
+}
 
 
 
 /* content styling*/
 #content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     transform: scale(1);
     transition: all 0.3s 0.2s ease-in;
-
-    width: 60%;
-    height: 30%;
-
-    padding: 50px 30px 10px 30px;
+    align-content: space-around;
+    width: 100%;
+    height: 100%;
+    border-width: 2px;
+    border-style: none;
+    border-radius: 50%;
+    align-items: center;
+  
     background-color: rgba(103, 189, 106, 0.6);
 }
-#content h3 {
+#content li {
     font-size: 100%;
     font-family: merriweather, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+    list-style-type: square;
+}
+#content:hover {
+    transition-duration: 1s;
 }
