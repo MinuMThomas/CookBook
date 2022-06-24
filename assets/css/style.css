@@ -368,6 +368,16 @@ ul h2 {
     transform: scale(1);
 }
 
+#foodimg{
+    font-family: Merriweather, serif;
+    text-align: justify;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+
+}
+
+/* style join us form */
+
 .form-section {
     display: flex;
     flex-direction: row;
@@ -377,7 +387,7 @@ ul h2 {
     background-repeat: no-repeat;
 }
 
-/* join us form */
+
 .form-image {
     position: absolute;
     width: 300px;
@@ -462,7 +472,7 @@ footer {
     }
 
 }
-.thank-you h2,h3 {
+.thank-you h2, .thank-you h3 {
     font-size: 25px;
     font-family: Merriweather, serif ;
     color: #e3ecec;
