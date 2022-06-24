@@ -10,7 +10,7 @@ body {
     font-family: Merriweather, serif;
     font-weight: 600;
     color: rgb(13, 15, 13);
-    background-color: rgb(247, 212, 212);
+    background-color: rgb(255, 249, 249);
 }
 /* headder elements in the flex box*/
 #header1 {
@@ -76,18 +76,119 @@ body {
     height: 100%;
     border-width: 2px;
     border-style: none;
-    border-radius: 50%;
     align-items: center;
-  
     background-color: rgba(103, 189, 106, 0.6);
+   
 }
 #content li {
     font-size: 100%;
     font-family: merriweather, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    list-style-type: square;
+    list-style-type: none;
+    transition: all 0.3s ease 0s;
 }
-#content:hover {
-    transition-duration: 1s;
+#content ul:hover {
+    position: absolute;
+    background-color: rgba(103, 189, 106, 0.6);
+    transition: all 0.3s 0.2s ease-in;
 }
+
+/* style columns and cover text in felxbox */
+
+.rooms li {
+    color: aliceblue;
+    list-style-type: none;
+}
+
+.rooms {
+    font-size: 100%;
+    font-family: Lora, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    width: 60%;
+    height: 30%;
+
+
+    padding: 50px 30px 10px 30px;
+    background-color: rgba(222, 222, 222, 0.6);
+}
+.rooms {
+    text-align: left;
+    color: blanchedalmond;
+
+}
+
+.rooms{
+    display: flex;
+    flex-direction: row;
+    transform: scale(1);
+    transition: all 0.3s 0.2s ease-in;
+}
+.rooms:hover {
+    transform: scale(1, 1.5)
+}
+
+aside h2 {
+    color: bisque;
+}
+
+.flexwrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.flexwrap>* {
+    padding: 10px;
+    margin: 10px;
+    flex: 100%;
+    border-radius: 10px;
+    height: 500px;
+}
+
+.column1 {
+
+    background-color: tomato;
+    background-image: url('..//image/fish-curry.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.column2 {
+    background: turquoise;
+    background-image: url('..//images/uppuma.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.column3 {
+    background: tomato;
+    background-image: url('..//images/iddaly.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.column4 {
+    background: turquoise;
+    background-image: url('..//images/sagosweet.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+
