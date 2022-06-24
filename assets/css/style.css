@@ -438,15 +438,14 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
+ /* thank you page style with animation  */
 .thank-you{
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 150px;
-    border: 1px solid;
     border-radius: 150%;
-    background-color: aquamarine;
+    background-color:  rgba(36, 40, 38, 0.6);
 
     /* zoom effect on thankyou page */
     animation-name: thankyou-zoom;
@@ -466,6 +465,12 @@ footer {
 .thank-you h2,h3 {
     font-size: 25px;
     font-family: Merriweather, serif ;
-    color: #0e4d50;
+    color: #e3ecec;
     margin: 10px;
+}
+#bgimage {
+    background-image: url('../image/spices-in-spoon-transformed.webp');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
 }
