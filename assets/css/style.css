@@ -69,35 +69,37 @@ body {
 #content {
     display: flex;
     flex-direction: column;
-    transform: scale(1);
-    transition: all 0.3s 0.2s ease-in;
     align-content: space-around;
     width: 100%;
     height: 100%;
-    border-width: 2px;
-    border-style: none;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(255, 127, 223);
+    border-radius: 50%;
     align-items: center;
-    background-color: rgba(103, 189, 106, 0.6);
-   
+    background-color: rgba(229, 238, 234, 0.6); 
+    transition: transform .3s;
+}
+
+#content:hover {
+  transform: scale(1.25);
+
 }
 #content li {
     font-size: 100%;
     font-family: merriweather, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     list-style-type: none;
-    transition: all 0.3s ease 0s;
+    word-spacing: 3px;
+   color: rgb(16, 16, 88);
 }
-#content ul:hover {
-    position: absolute;
-    background-color: rgba(103, 189, 106, 0.6);
-    transition: all 0.3s 0.2s ease-in;
-}
+
 
 /* style columns and cover text in felxbox */
 
 .rooms li {
-    color: aliceblue;
+    color: rgb(31, 85, 131);
     list-style-type: none;
 }
 
@@ -107,31 +109,28 @@ body {
     text-transform: uppercase;
     letter-spacing: 1px;
 
-    width: 60%;
-    height: 30%;
-
-
-    padding: 50px 30px 10px 30px;
+    width: 50%;
+    height: 50%;
+    padding: 50px;
+    margin: auto 0;
     background-color: rgba(222, 222, 222, 0.6);
 }
 .rooms {
     text-align: left;
     color: blanchedalmond;
-
 }
 
 .rooms{
     display: flex;
     flex-direction: row;
-    transform: scale(1);
-    transition: all 0.3s 0.2s ease-in;
+    transition: transform .2s; /*zoom effect*/
 }
 .rooms:hover {
-    transform: scale(1, 1.5)
+    transform: scale(1.5)
 }
 
-aside h2 {
-    color: bisque;
+ul h2 {
+    color: rgb(22, 28, 59);
 }
 
 .flexwrap {
@@ -163,7 +162,7 @@ aside h2 {
 
 .column2 {
     background: turquoise;
-    background-image: url('..//images/uppuma.webp');
+    background-image: url('..//image/uppuma.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -173,7 +172,7 @@ aside h2 {
 
 .column3 {
     background: tomato;
-    background-image: url('..//images/iddaly.jpeg');
+    background-image: url('..//image/fried-rice2-transformed.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -183,7 +182,7 @@ aside h2 {
 
 .column4 {
     background: turquoise;
-    background-image: url('..//images/sagosweet.jpeg');
+    background-image: url('..//image/cocnutpudding-PNYSJHc0M-transformed.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
