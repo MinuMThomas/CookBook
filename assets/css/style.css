@@ -220,9 +220,14 @@ ul h2 {
 
 
 /*social media links*/
+footer  {
+    display: flex;
+    height: 100px;
+    background-color: rgb(105, 207, 173);
+}
 
 #socialmedia>ul {
-    display: flex;
+    
     flex-direction: row;
 
 }
