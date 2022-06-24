@@ -191,3 +191,45 @@ ul h2 {
 }
 
 
+/*media query for larger screen 1200px and down*/
+@media screen and (max-width:1200px){
+    #first-image #header {
+        flex: 1;
+        flex-direction: row;
+    }
+}
+
+/*media query for larger screen 800px */
+@media screen and (min-width:800px) {
+    #first-image #header {
+        flex: 1;
+        flex-direction: column;
+    }
+}
+
+
+/*media query for larger screen 600px */
+
+@media screen and (min-width:600px){
+    #first-image #header {
+        flex: 1;
+        flex-direction: column;
+    }
+}
+
+
+
+/*social media links*/
+
+#socialmedia>ul {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#socialmedia i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 8%;
+    color: rgb(68, 0, 255);
+}
