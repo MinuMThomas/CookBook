@@ -26,35 +26,56 @@
         </div>
     </header>
 
-    <section class="form-section">
-        <form method="GET" action="#" class="signup-form">
-            <h2>Start your cooking Journey here!<i class="fa-solid fa-user-chef"></i></h2>
-            <label for="fname">Name</label>
-            <input id="fname" name="first_name" type="text" required class="text-input" placeholder="Name">
-            
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email_address" required class="text-input" placeholder="name@email.com">
-
-            <label for="email">Confirm Email Address</label>
-            <input type="email" id="email" name="email_address" required class="text-input" placeholder="name@email.com">
-            
-            <label for="road">Spicy Feast</label>
-            <input type="radio" id="road" name="running_preference" value="road" required>
-            <label for="trail">Glutan and lactose free Only</label>
-            <input type="radio" id="trail" name="running_preference" value="trail" required>
-            <label for="both">Food in 15 minutes</label>
-            <input type="radio" id="both" name="running_preference" value="both" required>
-            <label for="both">Desserts</label>
-            <input type="radio" id="both" name="running_preference" value="both" required>
-            <label for="both">All 5</label>
-            <input type="radio" id="both" name="running_preference" value="both" required>
-            
-            <input class="join-button" type="submit" value="To Chef!">
-        </form>
-    </section>
 
 
-    <footer>
+        <div class="form-section">
+            <form method="GET" action="thankyou.html" class="signin-form">
+                <h2>Start your cooking Journey here!<i class="fa-solid fa-user-chef"></i></h2>
+                <label for="Cname">Name</label>
+                <input id="Cname" name="first_name" type="text" required class="text-input" placeholder="Name">
+                
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" required class="text-input" placeholder="name@email.com">
+    
+                <label for="email">Confirm Email Address</label>
+                <input type="email" id="email" name="email_address" required class="text-input" placeholder="name@email.com">
+                
+                <!-- <label for="sf">Spicy Feast</label>
+                <input type="radio" id="sf" name="cooking_class" value="sf" required>
+                <label for="gdf">Glutan and dairy free</label>
+                <input type="radio" id="gdf" name="cooking_class" value="gdf" required>
+                <label for="ff">Food in 15 minutes</label>
+                <input type="radio" id="ff" name="cooking_class" value="ff" required>
+                <label for="dessert">Desserts</label>
+                <input type="radio" id="dessert" name="cooking_class" value="desert" required>
+                <label for="all">All 5</label>
+                <input type="radio" id="all" name="cooking_class" value="all" required> -->
+
+                <label for="course">Choose a Programme:</label>
+
+<select name="course" id="course">
+  <option value="Spicy Feast">Spicy Feast</option>
+  <option value="Glutan and dairy free">Glutan and dairy free</option>
+  <option value="Food in 15 minutes">Food in 15 minutes</option>
+  <option value="Desserts">Desserts</option>
+  <option value="All Programme">All Programme</option>
+
+</select>
+                
+                <input class="join-button" type="submit" value="To Chef!">
+            </form>
+
+            <div class="box-right">
+                <p>Contact Us</p>
+                <p>Chef</p>
+                <p>08965647386</p>
+                <p>chef@gmail.com</p>
+            </div>
+        </div>
+        
+
+
+        <footer>
         <div id="socialmedia">
                 <ul>
                     <li> <a href="https://facebook.com" target="_blank" rel="noopener"

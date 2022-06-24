@@ -368,33 +368,43 @@ ul h2 {
     transform: scale(1);
 }
 
-/* join us form */
-
 .form-section {
-    clear: left;
-    background: url(..//image/spices-in-spoon-transformed.webp);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: url(../image/spices-transformed.jpeg);
     background-size: cover;
-    background-position: center;
-    height: 900px;
+    background-repeat: no-repeat;
 }
 
-.signup-form {
-    margin: 150px 10% 0 0;
-    color: #fff;
-    background-color: rgba(78, 79, 79, 0.446);
-    max-width: 400px;
+/* join us form */
+.form-image {
     position: absolute;
-    left: 10%;
+    width: 300px;
+    height: 300px;
+}
+
+.signin-form {
+    margin: 2% 0%;
+    color: rgb(85, 25, 101);
+    background-color: rgba(103, 189, 106, 0.6);
+    max-width: 400px;
+    /* position: absolute; */
+    /* left: 10%; */
     padding: 30px;
 }
 
-.signup-form>h2 {
-    color: #fafafa;
+.box-right {
+    padding: 62px 30px;
+    background-color: rgba(103, 189, 106, 0.6);
+}
+.signin-form>h2 {
+    color: #1a4488;
     margin-bottom: 20px;
 }
 
 .text-input {
-    background: transparent;
+    background: rgb(62, 46, 46);
     color: #fafafa;
     width: 100%;
     height: 25px;
@@ -404,7 +414,7 @@ ul h2 {
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: #253b9f;
 }
 
 .join-button {
@@ -413,12 +423,18 @@ ul h2 {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #6bf198;
+    background-color: #2f5bad;
     color: #fafafa;
     display: block;
 }
 
 .join-button:hover {
-    background-color: #fafafa;
+    background-color: #38989d;
     color: #05170b;
+}
+
+footer {
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
 }
