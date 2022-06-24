@@ -438,3 +438,34 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.thank-you{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 150px;
+    border: 1px solid;
+    border-radius: 150%;
+    background-color: aquamarine;
+
+    /* zoom effect on thankyou page */
+    animation-name: thankyou-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes thankyou-zoom {
+    from{
+        transform: scale(.6);
+    }
+    to{
+        transform: scale(1);
+    }
+
+}
+.thank-you h2,h3 {
+    font-size: 25px;
+    font-family: Merriweather, serif ;
+    color: #0e4d50;
+    margin: 10px;
+}
