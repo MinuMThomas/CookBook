@@ -94,7 +94,13 @@ body {
     word-spacing: 3px;
    color: rgb(16, 16, 88);
 }
-
+#content p {
+    font-size: 100%;
+    font-family: merriweather, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
 
 /* style columns and cover text in felxbox */
 
