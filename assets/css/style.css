@@ -294,7 +294,7 @@ ul h2 {
 
 @media screen and (max-width:375px) {
     .nav-list {
-        top: 21%;
+        top: 25%;
     }
 
     .nav-list li {
