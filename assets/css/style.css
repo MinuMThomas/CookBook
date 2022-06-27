@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Merriweather:ital,wght@1,900&family=Oswald:wght@700&family=Spectral:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Spectral:wght@700&display=swap');
 * {
    
     padding: 0;
@@ -202,7 +201,7 @@ ul h2 {
 
 .column3 {
     background: tomato;
-    background-image: url('..//image/appam-egg.jpeg');
+    background-image: url('..//image/appam-egg.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -350,7 +349,7 @@ ul h2 {
 
 .pic1 {
     background-color: tomato;
-    background-image: url('..//image/cutlet.jpeg');
+    background-image: url('..//image/cutlet-transformed.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -370,7 +369,7 @@ ul h2 {
 
 .pic3 {
     background: tomato;
-    background-image: url('..//image/iddaly.jpeg');
+    background-image: url('..//image/iddaly.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -380,7 +379,7 @@ ul h2 {
 
 .pic4 {
     background: turquoise;
-    background-image: url('..//image/payasam.jpeg');
+    background-image: url('..//image/payasam.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -391,7 +390,7 @@ ul h2 {
 .pic5 {
 
     background-color: tomato;
-    background-image: url('..//image/kanji-curry.jpeg');
+    background-image: url('..//image/kanji-curry.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -422,7 +421,7 @@ ul h2 {
 
 .pic8 {
     background: turquoise;
-    background-image: url('..//image/beef-fry.jpeg');
+    background-image: url('..//image/beef-fry_1.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -572,7 +571,7 @@ footer {
     margin: 10px;
 }
 #bgimage {
-    background-image: url('../image/spices-transformed.jpeg');
+    background-image: url('..//image/spices-transformed.webp');
     background-size: cover;
     background-position: center;
     height: 100vh;
