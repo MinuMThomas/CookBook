@@ -306,6 +306,24 @@ ul h2 {
 
 }
 
+@media screen and (max-width:325px) {
+
+    #header1 {
+        padding: 45px 15px;
+    }
+    .nav-list {
+        top: 24%;
+    }
+    .nav-list li {
+        float: none;
+    margin-bottom: 10px;
+    margin-left: 0;
+    }
+    #headding {
+        margin-top: 10px;
+    }
+}
+
 
 /*social media links*/
 
