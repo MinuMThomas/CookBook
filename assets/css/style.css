@@ -155,7 +155,7 @@ padding: 0 40px;
     transition: transform .2s; /*zoom effect*/
 }
 .rooms:hover {
-    transform: scale(1.25)
+    transform: scale(0.9)
 }
 
 ul h2 {
