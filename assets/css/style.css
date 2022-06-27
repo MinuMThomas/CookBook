@@ -309,10 +309,14 @@ ul h2 {
 @media screen and (max-width:325px) {
 
     #header1 {
-        padding: 45px 15px;
+        padding: 20px 15px;
     }
     .nav-list {
-        top: 24%;
+        position: relative;
+        display: inline-flex;
+    flex-direction: column;
+    float: left;
+    margin-left: 34px;
     }
     .nav-list li {
         float: none;
@@ -321,6 +325,8 @@ ul h2 {
     }
     #headding {
         margin-top: 10px;
+        font-size: 32px;
+        line-height: 36px;
     }
 }
 
