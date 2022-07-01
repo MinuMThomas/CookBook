@@ -5,7 +5,7 @@
     padding: 0;
     border: none;
 }
-
+/* .......................................   ....section1  style index Html.......................................... */
 body {
     font-family: Merriweather, serif;
     font-weight: 700;
@@ -353,7 +353,7 @@ ul h2 {
 }
 
 
-/*social media links*/
+/*     social media links       */
 
 
 #socialmedia>ul {
@@ -372,7 +372,7 @@ ul h2 {
     color: rgb(68, 0, 255);
 }
 
-/* style recipie html in flex*/
+/* .................................section2 food image style section ........................................*/
 
 
 .recipie-pic {
@@ -473,7 +473,7 @@ ul h2 {
     overflow: hidden;
 }
 
-/* text style in recipie html */
+/*  .......text style in foodimaghe html .......*/
 .image1 {
     position: relative;
     cursor: pointer;
@@ -490,7 +490,7 @@ ul h2 {
     transition: all 0.3s 0.2s ease-in-out;
     color: #fafafa;
 
-    /*center text content*/
+    /* ............ center text content..........*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -507,8 +507,17 @@ ul h2 {
     word-spacing: 2px;
 
 }
+/* media query for recipie images */
+@media screen and (max-width: 800px) {
+    .recipie-pic {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+      align-content: space-around;
+    }
+}
 
-/* style join us form */
+/* ............................................section3 style join us form ...........................................*/
 
 .form-section {
     display: flex;
@@ -587,7 +596,7 @@ footer {
     padding: 10px;
 }
 
-/* thank you page style with animation  */
+/* ................................. section4 thank you page style with animation ................................. */
 .thank-you {
     display: flex;
     flex-direction: column;
