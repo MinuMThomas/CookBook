@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Spectral:wght@700&display=swap');
+
 * {
-   
+
     padding: 0;
     border: none;
 }
@@ -11,6 +12,7 @@ body {
     color: rgb(13, 15, 13);
     background-color: rgb(255, 249, 249);
 }
+
 /* headder elements in the flex box*/
 #header1 {
     background-color: rgba(103, 189, 106, 0.6);
@@ -39,7 +41,7 @@ body {
     font-size: 18px;
     letter-spacing: 3px;
     line-height: 60px;
- margin-right: 20px;
+    margin-right: 20px;
 
     float: right;
     position: absolute;
@@ -47,7 +49,8 @@ body {
     padding-top: 25px;
 
 }
-.nav-list a{
+
+.nav-list a {
     text-decoration: none;
 }
 
@@ -55,7 +58,7 @@ body {
     float: left;
     list-style-type: none;
     margin-left: 20px;
-   
+
 }
 
 /*first background image*/
@@ -81,11 +84,11 @@ body {
     border-color: rgb(255, 127, 223);
     /* border-radius: 50%; */
     align-items: center;
-    background-color: rgba(229, 238, 234, 0.6); 
+    background-color: rgba(229, 238, 234, 0.6);
     transition: transform .3s;
 }
 
- /* #content:hover { 
+/* #content:hover { 
    transform: scale(1.1);
  }  */
 
@@ -98,20 +101,22 @@ body {
     /* word-spacing: 3px;
    color: rgb(16, 16, 88); */
 }
-#content h3{
+
+#content h3 {
     text-align: center;
     font-size: 34px;
     line-height: 40px;
     color: rgb(16, 16, 88);
 }
-#content h4{
+
+#content h4 {
     text-align: center;
     font-size: 125%;
     color: rgb(16, 16, 88);
 
 }
 
-#content h2{
+#content h2 {
     font-size: 45px;
     line-height: 49px;
     font-family: Spectral, sans-serif;
@@ -122,8 +127,9 @@ body {
     padding: 0 40px;
     text-align: center;
 }
-#content > ul {
-padding: 0 40px;
+
+#content>ul {
+    padding: 0 40px;
 }
 
 /* style columns and cover text in felxbox */
@@ -145,15 +151,18 @@ padding: 0 40px;
     margin: auto 0;
     background-color: rgba(222, 222, 222, 0.6);
 }
+
 .rooms {
     text-align: left;
     color: blanchedalmond;
 }
 
-.rooms{
+.rooms {
 
-    transition: transform .2s; /*zoom effect*/
+    transition: transform .2s;
+    /*zoom effect*/
 }
+
 .rooms:hover {
     transform: scale(0.9)
 }
@@ -184,7 +193,7 @@ ul h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
+    /* width: 100%; */
     overflow: hidden;
 
 }
@@ -195,7 +204,7 @@ ul h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
+    /* width: 100%; */
     overflow: hidden;
 }
 
@@ -205,7 +214,7 @@ ul h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
+    /* width: 100%; */
     overflow: hidden;
 }
 
@@ -215,34 +224,43 @@ ul h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
+    /* width: 100%; */
     overflow: hidden;
 }
 
 
 /*media query for larger screen 1200px and down*/
-@media screen and (max-width:1200px){
-    #first-image, #header, .nav-list {
+@media screen and (max-width:1200px) {
+
+    #first-image,
+    #header,
+    .nav-list {
         /* flex: 1; */
         flex-direction: row;
     }
 }
 
-/*media query for larger screen 800px */
+/*media query for screen 800px and down */
 @media screen and (max-width:800px) {
-    #first-image, #header, .nav-list {
+
+    #first-image,
+    #header,
+    .nav-list {
         /* flex: 1; */
         flex-direction: column;
     }
 
-    
+
 }
 
 
-/*media query for larger screen 600px */
+/*media query for  screen 600px and down */
 
-@media screen and (max-width:700px){
-    #first-image, #header, .nav-list {
+@media screen and (max-width:700px) {
+
+    #first-image,
+    #header,
+    .nav-list {
         /* flex: 1; */
         flex-direction: column;
     }
@@ -254,10 +272,10 @@ ul h2 {
         line-height: 15px;
         /* float: left; */
         left: 0;
-    right: 0;
-    margin: auto;
-    display: inline-table;
-    top: 14%;
+        right: 0;
+        margin: auto;
+        display: inline-table;
+        top: 14%;
     }
 
     .nav-list li {
@@ -287,7 +305,7 @@ ul h2 {
     }
 
     .box-right {
-    padding: 140px 0px !important;
+        padding: 140px 0px !important;
     }
 }
 
@@ -299,9 +317,10 @@ ul h2 {
     .nav-list li {
         margin-left: 10px;
     }
-    .thank-you{
+
+    .thank-you {
         padding: 25px !important;
-     }
+    }
 
 
 }
@@ -311,18 +330,21 @@ ul h2 {
     #header1 {
         padding: 20px 15px;
     }
+
     .nav-list {
         position: relative;
         display: inline-flex;
-    flex-direction: column;
-    float: left;
-    margin-left: 34px;
+        flex-direction: column;
+        float: left;
+        margin-left: 34px;
     }
+
     .nav-list li {
         float: none;
-    margin-bottom: 10px;
-    margin-left: 0;
+        margin-bottom: 10px;
+        margin-left: 0;
     }
+
     #headding {
         margin-top: 10px;
         font-size: 32px;
@@ -353,8 +375,6 @@ ul h2 {
 /* style recipie html in flex*/
 
 
-
-
 .recipie-pic {
     display: flex;
     flex-direction: row;
@@ -377,7 +397,7 @@ ul h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
+    /* width: 100%; */
     overflow: hidden;
 }
 
@@ -387,7 +407,7 @@ ul h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
+    /* width: 100%; */
     overflow: hidden;
 }
 
@@ -397,7 +417,7 @@ ul h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
+    /* width: 100%; */
     overflow: hidden;
 }
 
@@ -407,7 +427,7 @@ ul h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
+    /* width: 100%; */
     overflow: hidden;
 }
 
@@ -418,7 +438,7 @@ ul h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
+    /* width: 100%; */
     overflow: hidden;
 
 }
@@ -429,7 +449,7 @@ ul h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
+    /* width: 100%; */
     overflow: hidden;
 }
 
@@ -439,7 +459,7 @@ ul h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
+    /* width: 100%; */
     overflow: hidden;
 }
 
@@ -449,9 +469,10 @@ ul h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
+    /* width: 100%; */
     overflow: hidden;
 }
+
 /* text style in recipie html */
 .image1 {
     position: relative;
@@ -468,7 +489,7 @@ ul h2 {
     transform: scale(0);
     transition: all 0.3s 0.2s ease-in-out;
     color: #fafafa;
-    
+
     /*center text content*/
     display: flex;
     align-items: center;
@@ -479,7 +500,7 @@ ul h2 {
     transform: scale(1);
 }
 
-#foodimg{
+#foodimg {
     font-family: Merriweather, serif;
     text-align: justify;
     letter-spacing: 2px;
@@ -522,6 +543,7 @@ ul h2 {
     padding: 140px 50px;
     color: white;
 }
+
 .signin-form>h2 {
     color: #fff;
     margin-bottom: 20px;
@@ -564,8 +586,9 @@ footer {
     background-color: rgba(103, 189, 106, 0.6);
     padding: 10px;
 }
- /* thank you page style with animation  */
-.thank-you{
+
+/* thank you page style with animation  */
+.thank-you {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -580,20 +603,24 @@ footer {
 }
 
 @keyframes thankyou-zoom {
-    from{
+    from {
         transform: scale(.6);
     }
-    to{
+
+    to {
         transform: scale(1);
     }
 
 }
-.thank-you h2, .thank-you h3 {
+
+.thank-you h2,
+.thank-you h3 {
     font-size: 25px;
-    font-family: Merriweather, serif ;
+    font-family: Merriweather, serif;
     color: #e3ecec;
     margin: 10px;
 }
+
 #bgimage {
     background-image: url('..//image/spices-transformed.webp');
     background-size: cover;
@@ -601,9 +628,10 @@ footer {
     height: 100vh;
     background-repeat: no-repeat;
 }
+
 /* media query for 600px below */
 @media screen and (max-width: 800px) {
-    .flexwrap{
+    .flexwrap {
         flex-direction: column;
     }
-  }
+}
