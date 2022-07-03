@@ -250,7 +250,7 @@ ul h2 {
         flex-direction: column;
     }
     .recipie-pic {
-        display: block;
+        display: block !important;
     }
 
 }
