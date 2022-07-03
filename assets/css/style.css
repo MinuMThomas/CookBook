@@ -249,7 +249,9 @@ ul h2 {
         /* flex: 1; */
         flex-direction: column;
     }
-
+    .recipie-pic {
+        display: block;
+    }
 
 }
 
