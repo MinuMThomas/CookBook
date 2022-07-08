@@ -15,10 +15,14 @@ This simple website developed for a user to join online cooking class for south 
 The online learning is very important feature since it can do from anywhere at own space. Using a simple website to attract customers to hassel free enrolment of a short course at any time. The simplicity of the website targeted to all age groups of people.
 
 
-**Scope**
-1. Content
+## Scope
+
+-__Content__
+
 Home page to introduce the course and short details about the modules. 
-2. Funtional Reqirements 
+
+-__Funtional Reqirements__
+
 Enrollment form and contact us details
 
 
