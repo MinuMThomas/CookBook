@@ -26,16 +26,16 @@ Home page to introduce the course and short details about the modules.
 Enrollment form and contact us details
 
 
-**Structure**
-The information and features was made into a easy to follow and read structure, with clear directions.
-Structure made with Balsamiq
-
-
 **Skeleton**
 The skeleton wireframe was made to give a clean and easy to use experiance.
 Made with Balsamiq
 
 ![Skeleton of the website!](/assets/image/skeleton.png)
+
+
+**Structure**
+The information and features was made into a easy to follow and read structure, with clear directions.
+Structure made with Balsamiq
 
 Wireframe 
 ![Wireframe of the website Home page!](/assets/image/wireframe1.webp  "wireframe of home page")
@@ -45,6 +45,9 @@ Wireframe
 ![Sign in form](/assets/image/eireframe3.webp  "wireframe of home page")
 
 ![Thank you page](/assets/image/wireframe4.webp "wireframe of home page")
+
+
+
 
 
 
