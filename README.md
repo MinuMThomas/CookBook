@@ -35,16 +35,11 @@ Structure made with Balsamiq
 The skeleton wireframe was made to give a clean and easy to use experiance.
 Made with Balsamiq
 Wireframe / Skeleton
-![Wireframe of the website!](/assets/image/wireframe1.webp "wireframe of home page")
-![Wireframe of the website!](/assets/image/wireframe2.webp "wireframe of food image page")
-![Wireframe of the website!](/assets/image/eireframe3.webp "wireframe of home page")
-![Wireframe of the website!](/assets/image/wireframe4.webp "wireframe of home page")
+![Wireframe of the website Home page!](/assets/image/wireframe1.webp "wireframe of home page")
+![Second page](/assets/image/wireframe2.webp "wireframe of food image page")
+![Sign in form](/assets/image/eireframe3.webp "wireframe of home page")
+![Thank you page](/assets/image/wireframe4.webp "wireframe of home page")
 
-
-**Surface**
-
-
-Changes during the design process
 
 
 **Typography**
