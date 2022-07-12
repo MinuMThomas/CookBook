@@ -598,6 +598,22 @@ footer {
     padding: 10px;
 }
 
+.contact-us {
+    background-color: rgba(225, 225, 225, 0.70);
+    position: relative;
+    width: 20vw;
+    margin: 0 auto;
+    padding: 1em;
+}
+.contact-us p {
+color: black;
+}
+
+@media screen and (max-width: 700px) {
+    .contact-us {
+        width: 55vw;
+    }
+}
 /* ................................. section4 thank you page style with animation ................................. */
 .thank-you {
     display: flex;
