@@ -49,13 +49,15 @@ Wireframe
 
 
 
-**Typography**
+### Typography
 
 All fonts are imported from google fonts
 
 
-## Color scheme
+### Color scheme
 
+- rgba(103, 189, 106, 0.6)
+- rgb(255, 127, 223)
 
 **Features**
 
@@ -70,28 +72,22 @@ Students corners have attractive images of food inlcudes name of the dish appear
 
 
 
-
-
-
-
-
-
 ## Technologies Used
 
 Main Language Used
-HTML5
-CSS3
+- HTML5
+- CSS3
 
 
 
-Credits
+## Credits
 
-Content
 
 
 
 ## Tutorial / used code
-w3c school - CSS Forms
-Love running project 
+- w3c school 
+- CSS Forms
+- Love running project 
 
-Acknowledgements
+## Acknowledgements
