@@ -38,21 +38,20 @@ The information and features was made into a easy to follow and read structure, 
 Structure made with Balsamiq
 
 Wireframe 
-![Wireframe of the website Home page!](/assets/image/wireframe1.webp  "wireframe of home page")
+![Wireframe of the website Home page!](/assets/image/WFhome.png  "wireframe of home page")
 
-![Second page](/assets/image/wireframe2.webp "wireframe of food image page")
+![Second page](/assets/image/WFstudentsc.png "wireframe of food image page")
 
-![Sign in form](/assets/image/eireframe3.webp  "wireframe of home page")
+![Sign in form](/assets/image/WFform%20.png  "wireframe of home page")
 
-![Thank you page](/assets/image/wireframe4.webp "wireframe of home page")
-
-
+![Thank you page](/assets/image/WFthankyou.png "wireframe of home page")
 
 
 
 
 **Typography**
 
+All fonts are imported from google fonts
 
 
 ## Color scheme
