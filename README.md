@@ -67,7 +67,7 @@ Zoom in effect in the module tab is an eye catching feature to look at the diffe
 Footer incuded with social media links are also in all three pages. 
 Students corners have attractive images of food inlcudes name of the dish appear when cursor move into the tab.
 
-
+**add images of nav bar and each pages by screen shots**
 
 
 
@@ -78,11 +78,32 @@ Main Language Used
 - HTML5
 - CSS3
 
+## Testing
 
+- w3c school links by adding web site link to the testing page
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fminumthomas.github.io%2FCookBook%2Fjoinus.html">link</a>
+
+- css validator
+<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fminumthomas.github.io%2FCookBook%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">link</a>
+
+## manual testing
+- safari 
+- firefox
+- chrome
+- images like screen shots of website from mobile and other operating systems
+
+## deployment
+- repository
+- gitpod
+- cloning and forking
+
+**local deployment**
+**remote deployment**
 
 ## Credits
 
-
+- images taken from
+- code references
 
 
 ## Tutorial / used code
@@ -91,3 +112,6 @@ Main Language Used
 - Love running project 
 
 ## Acknowledgements
+- thanks to Chris quinn mentor
+- slack team members
+- 
