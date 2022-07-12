@@ -34,7 +34,10 @@ Structure made with Balsamiq
 **Skeleton**
 The skeleton wireframe was made to give a clean and easy to use experiance.
 Made with Balsamiq
-Wireframe / Skeleton
+
+![Skeleton of the website!](/assets/image/skeleton.png)
+
+Wireframe 
 ![Wireframe of the website Home page!](/assets/image/wireframe1.webp  "wireframe of home page")
 
 ![Second page](/assets/image/wireframe2.webp "wireframe of food image page")
@@ -53,6 +56,7 @@ Wireframe / Skeleton
 
 
 **Features**
+
 The website logo “Cook Book” is in the four pages
 Navigation bar aslo included all pages to go back to the pages
 Zoom in effect in the module tab is an eye catching feature to look at the different modules.
