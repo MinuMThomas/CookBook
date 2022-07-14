@@ -160,7 +160,8 @@ body {
 .rooms {
 
     transition: transform .2s;
-    touch-action: inherit;
+    touch-action: pinch-zoom;
+
     /*zoom effect*/
 }
 
