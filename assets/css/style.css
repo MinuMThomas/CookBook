@@ -160,11 +160,13 @@ body {
 .rooms {
 
     transition: transform .2s;
+    touch-action: inherit;
     /*zoom effect*/
 }
 
 .rooms:hover {
     transform: scale(0.9)
+    
 }
 
 ul h2 {
