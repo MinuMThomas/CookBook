@@ -160,7 +160,6 @@ body {
 .rooms {
 
     transition: transform .2s;
-    touch-action: pinch-zoom;
 
     /*zoom effect*/
 }
@@ -169,6 +168,9 @@ body {
     transform: scale(0.9)
     
 }
+/* .rooms:hover{
+touch-action: auto double-tap-zoom;
+} */
 
 ul h2 {
     color: rgb(22, 28, 59);
