@@ -112,6 +112,6 @@ Main Language Used
 - Love running project 
 
 ## Acknowledgements
-- thanks to Chris quinn mentor
-- slack team members
+<!-- - thanks to Chris quinn mentor -->
+<!-- - slack team members -->
 - 
