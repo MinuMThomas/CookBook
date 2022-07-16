@@ -103,12 +103,11 @@ Main Language Used
 ## Credits
 
 - images taken from
-- code references
+:All images are free to use and taken from adobe stocks
+**code references**
 
-
-## Tutorial / used code
 - w3c school 
-- CSS Forms
+- css-tricks.com
 - Love running project 
 
 ## Acknowledgements
