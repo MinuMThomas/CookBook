@@ -5,7 +5,47 @@ Cook Book is an online cooking class website for people who interested to learn 
 View live website here! <a href="https://minumthomas.github.io/project-1/">link</a>
 
 ![Responsive image of the website!](/assets/image/responsive%20image%20readme.png "responsive image of the website")
-UX
+## UX
+
+### User Stories
+First time users:
+As a user of the site, I want to learn about the programmes offered 
+As a user of the site, I want to learn how to join the programmes 
+As a fist time user of the site, I want to navigate social media links 
+As a user of the site. I want to be able to navigate easily from multiple devices 
+As a user of the site, I want the site to be intuitive  and professional looking.
+As a of the site, I want to learn how to select a programme and enroll 
+As a user of the site, I want to know enrollment was success or not 
+Returning users:
+As a returning user of the site, I want to be able to quickly find the information about various cooking programmes 
+As a returning user of the site, I want to be able to quickly enroll for a cooking programme 
+Site owner:
+As an owner of the site, I want to highlight cooking courses  
+As an owner of the site, I want to show different dishes prepared by course participants
+As an owner of the site, I want to have enrollment form  easily available for new clients.
+As an owner of the site, I want to display acknowledgement page when customer enrolls for a programme 
+As an owner of the site, I want the site to be fully responsive 
+ 
+Site structure
+All pages
+The home page will have a main banner with large hero image, main title and subtitle and content. 
+The site will have a navigation menu in the top right, consistent on all pages
+The navigation menu will change to a hamburger menu on mobile and tablet devices 
+The main page will have 4 small images along with taglines to highlight the courses 
+The second page will display images of dishes prepared  by participants,  8 images along with taglines 
+The third page will have a enrollment form and programme selection dropdown. 
+ 
+All pages will also contain a section at the bottom of the page which includes  social media links
+Home page
+The home page will contain some introductory text about what the site does and what offer to clients.
+ 
+There will also be an image with relevant taglines that fits in with the site design.
+Students Corner
+The about page will contain images of dishes prepared by students along with taglines
+Join Us Page
+The contact page will contain an enrollment  form so users can submit their details, the form will require name, phone, email, and programme selection tool. The system will display a thankyou page based on successful submission of enrollment form.
+
+
 
 **Development**
 
@@ -17,11 +57,11 @@ The online learning is very important feature since it can do from anywhere at o
 
 ## Scope
 
--__Content__
+__Content__
 
 Home page to introduce the course and short details about the modules. 
 
--__Funtional Reqirements__
+__Funtional Reqirements__
 
 Enrollment form and contact us details
 
@@ -51,7 +91,9 @@ Wireframe
 
 ### Typography
 
-All fonts are imported from google fonts
+All fonts are imported from google fonts – Merriweather, Spectral & Sans- Serif
+ 
+
 
 
 ### Color scheme
@@ -78,7 +120,7 @@ Main Language Used
 - HTML5
 - CSS3
 
-## Testing
+## Validator Testing
 
 - w3c school links by adding web site link to the testing page
 <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fminumthomas.github.io%2FCookBook%2Fjoinus.html">link</a>
@@ -86,29 +128,43 @@ Main Language Used
 - css validator
 <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fminumthomas.github.io%2FCookBook%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">link</a>
 
+- Light house
+
+
 ## manual testing
-- safari 
-- firefox
-- chrome
-- images like screen shots of website from mobile and other operating systems
+- Tested navigation works on all pages including links 
+- Tested enrollment form and its functionalities 
+- Tested dropdown button functions on enrollment form 
+- Tested success message alert when enrollment is completed 
+- Tested thank you page is displayed after submitting enrollment form 
+- Tested all social media links 
+
 
 ## deployment
-- repository
-- gitpod
-- cloning and forking
+- The project was created in Github using the Code Institute’s full template
+- Github was used for code repository and version control, methods below 
+1. Git add was used to stage files before committing.
+2. Git commit -m was used to add commit messages.
+3. Git push was used to push code to the repo.
+ 
+**Project deployment steps below**
+1. Open Gitgub repository
+2. Click Settings
+3. Click Pages on the left-hand side
+4. In Source select main branch and root
+5. Click save
+6. Click the link to the live site
 
-**local deployment**
-**remote deployment**
 
-## Credits
-
-- images taken from
-:All images are free to use and taken from adobe stocks
-**code references**
+## Credits and Reference
 
 - w3c school 
 - css-tricks.com
 - Love running project 
+- All images are free to use and taken from adobe stocks
+
+## Unfixed bugs
+No unfixed bugs
 
 ## Acknowledgements
 <!-- - thanks to Chris quinn mentor -->
