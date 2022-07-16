@@ -1,5 +1,5 @@
 # Cook Book
-Cook Book is an online cooking class website for people who intrested to learn South Indian cooking methods. This site specifically targeted begginers in cooking and also people who is llactose-freeaking special food needs like lactose free and gluten-free. Since it is an online cooking tutorial so people can join anywhere around the world!
+Cook Book is an online cooking class website for people who interested to learn South Indian cooking methods. This site specifically targeted beginners in cooking and also people who is lactose-freeaking special food needs like lactose-free and gluten-free. Since it is an online cooking tutorial so people can join anywhere around the world!
 
 
 View live website here! <a href="https://minumthomas.github.io/project-1/">link</a>
@@ -38,13 +38,13 @@ The information and features was made into a easy to follow and read structure, 
 Structure made with Balsamiq
 
 Wireframe 
-![Wireframe of the website Home page!](/assets/image/WFhome.png  "wireframe of home page")
+![Wireframe of the website Home page!](/assets/image/Home%20Page.png  "wireframe of home page")
 
-![Second page](/assets/image/WFstudentsc.png "wireframe of food image page")
+![Second page](/assets/image/Students%20Corner.png "wireframe of food image page")
 
-![Sign in form](/assets/image/WFform%20.png  "wireframe of home page")
+![Sign in form](/assets/image/Form%20.png  "wireframe of home page")
 
-![Thank you page](/assets/image/WFthankyou.png "wireframe of home page")
+![Thank you page](/assets/image/Thankyou%20Page.png "wireframe of home page")
 
 
 
