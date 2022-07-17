@@ -142,18 +142,19 @@ Main Language Used
 
 ## deployment
 - The project was created in Github using the Code Institute’s full template
-- Github was used for code repository and version control, methods below 
+- Github was used for code repository and methods below 
 1. Git add was used to stage files before committing.
 2. Git commit -m was used to add commit messages.
 3. Git push was used to push code to the repo.
  
-**Project deployment steps below**
-1. Open Gitgub repository
-2. Click Settings
-3. Click Pages on the left-hand side
-4. In Source select main branch and root
-5. Click save
-6. Click the link to the live site
+#### Project deployment steps below
+
+- Open Gitgub repository
+- Click Settings
+- Click Pages on the left-hand side
+- In Source select main branch and root
+- Click save
+- Click the link to the live site
 
 
 ## Credits and Reference
