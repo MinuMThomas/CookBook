@@ -137,7 +137,7 @@ Main Language Used
 - Light house
 ![light house validation](/assets/image/lighthouse.png "image of light house validator")
 
-## manual testing
+## Manual testing
 - Tested navigation works on all pages including links 
 - Tested enrollment form and its functionalities 
 - Tested dropdown button functions on enrollment form 
