@@ -7,7 +7,7 @@ View live website here! <a href="https://minumthomas.github.io/project-1/">link<
 ![Responsive image of the website!](/assets/image/responsive%20image%20readme.png "responsive image of the website")
 ## UX
 
-### User Stories
+#### User Stories
 First time users:
 - As a user of the site, I want to learn about the programmes offered 
 - As a user of the site, I want to learn how to join the programmes 
@@ -135,7 +135,7 @@ Main Language Used
 <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fminumthomas.github.io%2FCookBook%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">link</a>
 
 - Light house
-
+![light house validation](/assets/image/lighthouse.png "image of light house validator")
 
 ## manual testing
 - Tested navigation works on all pages including links 
