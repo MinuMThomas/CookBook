@@ -2,7 +2,7 @@
 Cook Book is an online cooking class website for people who interested to learn South Indian cooking methods. This site specifically targeted beginners in cooking and also people who is lactose-freeaking special food needs like lactose-free and gluten-free. Since it is an online cooking tutorial so people can join anywhere around the world!
 
 
-View live website here! <a href="https://minumthomas.github.io/project-1/">link</a>
+View live website here! <a href="https://minumthomas.github.io/CookBook/">link</a>
 
 ![Responsive image of the website!](/assets/image/responsive%20image%20readme.png "responsive image of the website")
 ## UX
