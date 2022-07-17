@@ -14,16 +14,16 @@ As a user of the site, I want to learn how to join the programmes 
 As a fist time user of the site, I want to navigate social media links 
 As a user of the site. I want to be able to navigate easily from multiple devices 
 As a user of the site, I want the site to be intuitive  and professional looking.
-As a of the site, I want to learn how to select a programme and enroll 
+As a user of the site, I want to learn how to select a programme and enroll 
 As a user of the site, I want to know enrollment was success or not 
 Returning users:
-As a returning user of the site, I want to be able to quickly find the information about various cooking programmes 
-As a returning user of the site, I want to be able to quickly enroll for a cooking programme 
+As a returning user of the site, I want to be able to quickly find information about various cooking programmes 
+As a returning user of the site, I want to be able to quickly enrol for a cooking programme 
 Site owner:
 As an owner of the site, I want to highlight cooking courses  
 As an owner of the site, I want to show different dishes prepared by course participants
-As an owner of the site, I want to have enrollment form  easily available for new clients.
-As an owner of the site, I want to display acknowledgement page when customer enrolls for a programme 
+As an owner of the site, I want to have enrollment forms easily available for new clients.
+As an owner of the site, I want to display an acknowledgement page when a customer enrols for a programme 
 As an owner of the site, I want the site to be fully responsive 
  
 Site structure
