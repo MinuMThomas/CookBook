@@ -181,6 +181,8 @@ No unfixed bugs
 - W3School 
 - CSS-tricks.com
 - Love running project 
+- README.md of love running project
+- coding-boot-camp- professional-readme-guide
 - All images are free to use and taken from adobe stocks
 
 
