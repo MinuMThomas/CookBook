@@ -8,7 +8,7 @@ View live website here! <a href="https://minumthomas.github.io/CookBook/">link</
 ## UX
 
 #### User Stories
-First time users:
+First time users
 - As a user of the site, I want to learn about the programmes offered 
 - As a user of the site, I want to learn how to join the programmes 
 - As a fist time user of the site, I want to navigate social media links 
