@@ -178,7 +178,7 @@ No unfixed bugs
 
 ## Credits and Reference
 
-- w3c school 
+- W3School 
 - CSS-tricks.com
 - Love running project 
 - All images are free to use and taken from adobe stocks
