@@ -37,8 +37,8 @@ body {
 /* navigation elements*/
 
 .nav-list {
-    font-size: 18px;
-    letter-spacing: 3px;
+    font-size: 17px;
+    letter-spacing: 2px;
     line-height: 60px;
     margin-right: 20px;
 
@@ -504,7 +504,7 @@ ul h2 {
     background-image: url(../image/spices-in-spoon-transformed.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 10vh;
+    /* padding: 10vh; */
 }
 
 
@@ -578,7 +578,12 @@ footer {
 .contact-us p {
 color: black;
 }
-
+@media screen and (min-width: 700px)
+{
+    .form-section {
+        padding: 10vh;
+    }
+}
 @media screen and (max-width: 700px) {
     .contact-us {
         width: 55vw;
