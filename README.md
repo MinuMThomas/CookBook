@@ -16,10 +16,14 @@ First time users:
 - As a user of the site, I want the site to be intuitive  and professional looking.
 - As a user of the site, I want to learn how to select a programme and enroll 
 - As a user of the site, I want to know enrollment was success or not 
-#### Returning users:
+
+#### Returning users
+
 - As a returning user of the site, I want to be able to quickly find information about various cooking programmes 
 - As a returning user of the site, I want to be able to quickly enrol for a cooking programme 
-#### Site owner:
+
+#### Site owner
+
 - As an owner of the site, I want to highlight cooking courses  
 - As an owner of the site, I want to show different dishes prepared by course participants
 - As an owner of the site, I want to have enrollment forms easily available for new clients.
@@ -27,7 +31,7 @@ First time users:
 - As an owner of the site, I want the site to be fully responsive 
  
 #### Site structure
-- All pages
+
 - The home page will have a main banner with large hero image, main title and subtitle and content. 
 - The site will have a navigation menu in the top right, consistent on all pages
 - The navigation menu will change to a hamburger menu on mobile and tablet devices 
