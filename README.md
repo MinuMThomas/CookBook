@@ -133,10 +133,13 @@ Main Language Used
 
 ## Validator Testing
 
-- w3c school links by adding web site link to the testing page
-<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fminumthomas.github.io%2FCookBook%2Fjoinus.html">link</a>
+- W3C validation links
+- Home Page :  <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fminumthomas.github.io%2FCookBook%2Findex.html">link</a>
+- Student Corner page : <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fminumthomas.github.io%2FCookBook%2Ffoodimage.html">link</a>
+- Join us Page : <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fminumthomas.github.io%2FCookBook%2Fjoinus.html">link</a>
+- Thank You Page : <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fminumthomas.github.io%2FCookBook%2Fthankyou.html%3Ffirst_name%3Djhjhfjghf%26email_address%3Ddbbdeub%2540gmail.com%26course%3DSpicy%2BFeast">link</a>
 
-- css validator
+-  W3C CSS validation link : 
 <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fminumthomas.github.io%2FCookBook%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">link</a>
 
 - Light house
@@ -153,14 +156,12 @@ Main Language Used
 
 ## Deployment
 - The project was created in Github using the Code Institute’s full template
-- Github was used for code repository and methods below 
-1. Git add was used to stage files before committing.
-2. Git commit -m was used to add commit messages.
-3. Git push was used to push code to the repo.
+- Github was used for code repository 
+
  
 #### Project deployment steps below
 
-- Open Gitgub repository
+- Open Github repository
 - Click Settings
 - Click Pages on the left-hand side
 - In Source select main branch and root
