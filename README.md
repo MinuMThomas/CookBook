@@ -108,23 +108,26 @@ Wireframe
 
 ## Features
 
-**The website logo “Cook Book” is in the four pages**
+- **The website logo “Cook Book” is in the four pages**
 ![The website logo Cook Book is in the four pages](/assets/image/logo%20and%20nav%20bar.png "image of home page")
 
-**Navigation bar aslo included all pages to go back to the pages**
+- **Navigation bar aslo included all pages to go back to the pages**
 ![The navigation bar in four pages](/assets/image/nav%20bar.png "image of navigation page")
 
-**Zoom in effect in the module tab is an eye catching feature to look at the different modules.**
-![The navigation bar in four pages](/assets/image/formP.png "image of form page")
+- **Zoom in effect in the module tab is an eye catching feature to look at the different modules.**
+![The bottom of home page](/assets/image/homep.png "image of home page")
 
-**Footer incuded with social media links are also in all three pages.** 
-![The navigation bar in four pages](/assets/image/footer.png "image of social media links")
+- **Footer incuded with social media links are also in all three pages.** 
+![The footer included with social media links  ](/assets/image/footer.png "image of social media links")
 
-**Students corners have attractive images of food inlcudes name of the dish appear when cursor move into the tab.**
-![The navigation bar in four pages](/assets/image/thanksP.png "image of thank you page")
+- **Students corners have attractive images of food inlcudes name of the dish appear when cursor move into the tab.**
+![student corner images](/assets/image/page2.png "image of food")
 
+- **Form page includes enrolment form and contact us details**
+![The form page](/assets/image/formPic.png "image of form page")
 
-
+- **once hitting the enroll-now button, that will leads to a Thank you page**
+![Thank you page](/assets/image/thanksP.png "image of thank you page")
 ## Technologies Used
 
 Main Language Used
