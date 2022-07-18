@@ -95,8 +95,9 @@ Wireframe
 
 ### Typography
 
-All fonts are imported from google fonts – Merriweather, Spectral & Sans- Serif
+- All fonts are imported from google fonts – Merriweather, Spectral & Sans- Serif
  
+- All icons links copied from fontawesome.com
 
 
 
