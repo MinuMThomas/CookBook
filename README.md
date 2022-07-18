@@ -152,6 +152,8 @@ Main Language Used
 - Tested success message alert when enrollment is completed 
 - Tested thank you page is displayed after submitting enrollment form 
 - Tested all social media links 
+- Tested on Chrome, Safari and Firefox browsers
+- Tested on Desktop, Laptop, iPad and mobile phones
 
 
 ## Deployment
