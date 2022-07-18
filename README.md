@@ -162,18 +162,18 @@ Main Language Used
 - Click save
 - Click the link to the live site
 
+## Unfixed bugs
+No unfixed bugs
 
 ## Credits and Reference
 
 - w3c school 
-- css-tricks.com
+- CSS-tricks.com
 - Love running project 
 - All images are free to use and taken from adobe stocks
 
-## Unfixed bugs
-No unfixed bugs
 
 ## Acknowledgements
-<!-- - thanks to Chris quinn mentor -->
-<!-- - slack team members -->
-- 
+
+- Thanks to my mentor, Chris Quinn, for the guidence.
+- Thanks to Cohort Facilitators Kenan and Kasia for all the help through out my studies and project
